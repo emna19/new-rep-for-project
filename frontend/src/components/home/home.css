@@ -1,0 +1,127 @@
+* {
+    font-family: 'Tajawal';
+}
+
+.login-container {
+    width: 1360px;
+    height: 200px;
+    background-image:
+        radial-gradient(circle at 5.5px, #00000038 14.25px, rgba(255,255,255,0) 2.25px),
+        radial-gradient(circle, #00000038 9.25px, rgba(255,255,255,0) 2.25px),
+        radial-gradient(circle at 5.5px, #00000038 14.25px, rgba(255,255,255,0) 2.25px),
+        radial-gradient(circle, #00000038 9.25px, rgba(255,255,255,0) 2.25px);
+    background-position: top, right, bottom, left;
+    background-size: 41px 1px, 1px 41px;
+    background-repeat: repeat-x, repeat-y;
+    filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.5));
+    border-radius: 20px;
+    margin-bottom: 3em;
+    display: -webkit-box;
+    overflow: hidden;
+    padding: 20px;
+    gap: 24px;
+}
+ /* when overlay clicked */
+/* .home {
+    z-index: -1;
+    height: 660px;
+    background-color: #00000094;
+} */
+
+.home .card {
+    width: 329px
+}
+
+.home .audiences {
+    height: fit-content;
+    gap: 5px 24px;
+}
+
+.home .audiences .card-body {
+    display: grid;
+    padding-top: 9px;
+}
+
+.container-home {
+    margin-top: 47px;
+    margin-left: 5em;
+
+    /* when overlay is clicked */
+    
+}
+
+.home-container-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    letter-spacing: 0.065em;
+}
+.home-container-Add {
+    background: #F17B22;
+    box-shadow: 0px 0px 9px 1px rgba(123, 123, 123, 0.11);
+    border-radius: 6px;
+    border: none;
+    width: 88px;
+    height: 32px;
+    font-size: 16px;
+    line-height: 29px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+
+.home-container-Delete {
+    border: 1px solid #F17B22;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+    height: 32px;
+    font-size: 16px;
+    line-height: 29px;
+    letter-spacing: 0.03em;
+    color: black;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.home-container-head {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 1350px;
+    margin-bottom: 8px;
+}
+
+.home .audiences .card-title {
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+
+.home .audiences span {
+    font-weight: 600;
+}
+
+.home .validation {
+    justify-content: center;
+    align-items: center;
+}
+/* when overlay is clicked */
+.home .overlay {
+    border-radius: 12px;
+    background-color: rgb(255 255 255 / 90%);
+    top: calc((50vh - 50%) * -1);
+    transform: translate(-50%, calc(56vh - 50%));
+    left: 50%;
+    position: fixed;
+
+}
+
+.AudView {
+    border-radius: 8px;
+}
+
+.Annonce .card-text {
+    width: 128px
+}
+
+.Annonce .card-zone-text {
+    width: 187px
+}

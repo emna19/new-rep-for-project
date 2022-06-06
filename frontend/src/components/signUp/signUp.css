@@ -1,0 +1,79 @@
+* {
+    font-family: 'Tajawal';
+}
+
+/* .sign-up-body {
+    background-color: #114A71;
+} */
+
+.signup-real .card {
+    background: rgba(255, 255, 255, 0.92);
+    border: 1px solid rgba(236, 236, 236, 0.11);
+    box-shadow: 0px 0px 8px 3px rgba(0, 0, 0, 0.15);
+    border-radius: 9px;
+    padding: 4px 27px;
+    width: 550px;
+}
+
+.signup-real .card-title {
+    margin-bottom: 1.5em;
+}
+
+.signup-real .btn {
+    background: #F17B22;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+}
+
+.signup-real .btn:hover {
+    background: rgb(224, 115, 31);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+}
+
+.signup-real .input-elements {
+    margin-bottom: 5px;
+}
+
+.signup-real .checkbox:hover {
+    background: rgba(224, 115, 31, 0.204);
+}
+
+.signup-real .checkbox:checked {
+    background: #F17B22;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.signup-real .card-title {
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 46px;
+letter-spacing: 0.02em;
+}
+
+.signup-real .form-control:not(.Email-text), .checkbox, .form-select {
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+}
+
+.signup-real .Email {
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+}
+
+.signup-real .input-group-text {
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: 5px 2px 2px 5px;
+}
+
+.country-width {
+    width : 300px
+}

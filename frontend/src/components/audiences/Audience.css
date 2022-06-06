@@ -1,0 +1,153 @@
+.audience .container-fluid {
+    margin-left: 10px;
+}
+
+.audience .page-title {
+    margin-left: 75px;
+}
+
+.audience .navbar-logo {
+    width: 33px;
+    height: 25px;
+    margin-top: 4px;
+}
+
+.audience .navbar-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 41px;
+    /* identical to box height */
+
+    letter-spacing: 0.1em;
+
+    color: #000000;
+    
+}
+
+.audience .navbar-title:not(.page-title) {
+    margin-top: -1px;
+    font-size: 22px;
+    
+}
+
+.audience .navbar-brand {
+    display: inherit;
+    align-items: center;
+}
+
+.navbar .col-8 {
+    padding-bottom: 11px;
+}
+
+/* Audience main */
+
+.audience .card {
+    padding: 40px 2px 40px 70px;
+    margin: auto;
+    margin-top: 60px;
+    border: 1px solid rgba(17, 74, 113, 0.2);
+    box-sizing: border-box;
+    filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.1));
+    border-radius: 16px;
+}
+
+.audience .select-row {
+    gap: 12px 0px;
+}
+
+.audience .for-add-btn, .edit-country-for-add {
+    padding: 0;
+    width: 42px;
+}
+
+.audience .add, .edit-country-add {
+    border-radius: 50%;
+    height: 25px;
+    padding: 0;
+    padding-left: 15%;
+    padding-right: 15%;
+    border: 1px solid rgba(17, 75, 113, 0.473);
+    box-sizing: border-box;
+
+}
+
+.audience .form-label {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 34px;
+    /* identical to box height */
+    letter-spacing: 0.08em;
+    color: #000000;
+    margin-bottom: 0px;
+}
+
+.audience .countries-text {
+    width: 120px;
+}
+
+.audience .age-text {
+    width: 104px;
+}
+
+.audience .form-control, .edit-country {
+    border: 1px solid rgba(17, 75, 113, 0.473);
+    box-sizing: border-box;
+    border-radius: 12px;
+    
+}
+
+.audience .countries-select, .edit-country {
+    margin-right: 12px;
+}
+
+.audience .lg-input {
+    width: 477px;
+    height: 38px;
+}
+
+.audience .form-select, .edit-country {
+    width: 139px;
+}
+
+.audience .nameAud-text {
+    margin-bottom: 0.5rem;
+}
+
+.audience .mb-5 {
+    align-items: center;
+}
+
+.audience .buttons {
+    margin: auto;
+    display: flex;
+    justify-content: end;
+    gap: 28px;
+    margin-top: 20px;
+}
+
+.audience .age-input {
+    text-align: center;
+}
+
+.audience .buttons .btn, .edit-country-add {
+    width: 100px;
+    border: 1px solid #F17B22;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.audience .save {
+    background: #F17B22;
+    color: white;
+}
+
+.audience .cancel {
+    color: black;
+    background-color: rgba(0, 0, 0, 0);
+}
+

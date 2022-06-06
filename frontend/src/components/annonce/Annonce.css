@@ -1,0 +1,11 @@
+.annonce .mb {
+    margin-bottom: 34px;
+}
+
+.annonce .card {
+    padding: 30px 2px 30px 70px;
+}
+
+.annonce .countries-select {
+    margin-right: 0px;
+}
